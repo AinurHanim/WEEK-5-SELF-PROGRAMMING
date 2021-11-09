@@ -1,0 +1,24 @@
+package SelfProgramming;
+
+public class NoteSlide24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double amount = 200;
+		double balance = 100;
+		double OVERDRAFT_PENALTY = 20;
+		
+		if (amount <= balance)
+		{   balance = balance - amount;   
+		      System.out.println("New Account Balance : " + balance);
+		}
+		else
+		{
+		      balance = balance - OVERDRAFT_PENALTY;
+			    System.out.println("TRANSACTION NOT ALLOWED");
+		} 
+
+
+	}
+
+}
