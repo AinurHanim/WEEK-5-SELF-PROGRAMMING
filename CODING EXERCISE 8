@@ -1,0 +1,20 @@
+package SelfProgramming;
+
+public class IfElseExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int time = 5, tide =3;
+		if (time + tide > 6);
+		
+			System.out.println("Time and tide wait for no one.");
+		
+		 if (time + tide < 6)
+		
+			System.out.println("Time and tide wait for me");
+		
+		
+
+	}
+
+}
