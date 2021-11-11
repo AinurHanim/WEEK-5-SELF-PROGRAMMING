@@ -1,0 +1,17 @@
+package SelfProgramming;
+
+public class IfElseExample3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x = 90;
+		int y = 210;
+		if(x > 100 && y <= 200)
+			System.out.println(x + " " + y + " " + (x + y));
+		else
+			System.out.println(x + " " + y + " " + (2 * x - y));
+		
+
+	}
+
+}
